@@ -30,7 +30,7 @@ Use https://discord.com/developers/docs/resources/ for get response structure
 |execute(text, nick, avatar_url, tts, embeds, allowed_mentions)| Send message
 |delete() | Delete webhook
 |modify(value, field) | https://discord.com/developers/docs/resources/webhook#modify-webhook
-|------------|----------|
+-------------------------
 `Based on webhook token, client token not needed`
 
 #
@@ -86,5 +86,5 @@ Use https://discord.com/developers/docs/resources/ for get response structure
 |create_channel(gid, name, type, parent_id) | Create channel with category
 |edit_channel(cid, name, type, topic, bitrate, user_limit, nsfw, slowmode, rate_limit_per_user, rtc_region) | Edit channel params
 |delete_channel(cid) | Delete channel
-|------------|----------|
+-------------------------
 `Based on client token`
