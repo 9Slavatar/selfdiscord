@@ -1,7 +1,6 @@
 import requests
 from random import randint
 
-# TODO: Make object for message, channel (msg.edit("content"))
 # 4Discord stuff: pls remove the ur fucking T.O.S about selfbotings
 
 # Headers for client requests
